@@ -1,0 +1,26 @@
+$fuente: "Josefin Sans", sans-serif;
+$color_a: #FFD700;
+$color_r: red;
+$color_bln: #fff;
+$color_az: #3D8BFF;
+.titulo {
+  font-family: $fuente;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 12;
+  margin-left: 0;
+  margin-right: 0;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  h1 {
+    font-size: 4.6rem;
+    font-weight: bolder;
+    color: $color_a;
+  }
+  p {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: $color_bln;
+  }
+  background-color: $color_az;
+}

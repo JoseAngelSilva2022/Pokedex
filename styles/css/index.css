@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
+img {
+  width: 410px;
+  height: auto;
+}
+
+.titulo {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 12;
+  margin-left: 0;
+  margin-right: 0;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  background-color: #3D8BFF;
+}
+.titulo h1 {
+  font-size: 4.6rem;
+  font-weight: bolder;
+  color: #FFD700;
+}
+.titulo p {
+  font-size: 2.3rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  font: size 4.2rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+button.Buscar {
+  background-color: #b8860b;
+  font-weight: bolder;
+}
+button.Buscar:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*# sourceMappingURL=index.css.map */

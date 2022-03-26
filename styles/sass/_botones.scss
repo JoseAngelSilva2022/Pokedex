@@ -1,0 +1,25 @@
+// Variables
+$fuente: "Josefin Sans", sans-serif;
+$color_mar: #b8860b;
+$color_borrar: #e0720b;
+
+button {
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  font: size 4.2rem;
+  font-family: $fuente;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+button.Buscar {
+  background-color: $color_mar;
+  font-weight: bolder;
+  &:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+}

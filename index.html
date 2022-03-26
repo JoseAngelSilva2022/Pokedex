@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <script src="/js/api_pokdex.js"></script>
+    <link rel="stylesheet" href="./styles/css/index.css" />
+  </head>
+  <body>
+    <div class="titulo">
+      <h1 class="titulo">Pokédex</h1>
+      <p class="saludo">Bienvenidos a la Pokédex</p>
+    </div>
+    <div class="pokedex">
+      <div class="bus">
+        <label for="pkeName">Ingrese el nombre del Pokémon a buscar</label>
+        <br />
+        <input
+          type="text"
+          name="pkeName"
+          id="pkeName"
+          placeholder="Nombre de tu Pokemon"
+        />
+        <div class="boton">
+          <button onclick="fetch_pokemon()" class="Buscar">Buscar Pokemon</button>
+        </div>
+      </div>
+      <div class="informacion">
+        <div class="imagen">
+          <img
+            src="https://vader.news/__export/1588965166057/sites/gadgets/img/2020/05/08/2-25193_pokemon-ball-transparent-background-transparent-background-pokeball-png.png_423682103.png"
+            alt="imagen_pokemon"
+            id="poke_imagen"
+          />
+        </div>
+        <div class="info">
+          <h1 id="nombre_pokemon"></h1>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script src="./js/index.js"></script>
+  </footer>
+</html>
